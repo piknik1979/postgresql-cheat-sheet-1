@@ -31,3 +31,15 @@ ORDER BY table2.column1 ASC|DESC;
 | ```FULL OUTER JOIN```     | Sows all records from both tables whether they have a match in the other table or not |
 
 ![Joins Venn Diagram](https://github.com/ZanClifton/postgresql-cheat-sheet/blob/main/images/sql-joins.png)
+
+## CASE Statement
+
+```
+CASE
+  WHEN column1=value1 THEN value3
+  WHEN column1=value2 THEN value4
+  ELSE 'Unknown'
+END
+```
+
+
