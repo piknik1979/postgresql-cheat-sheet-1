@@ -29,3 +29,5 @@ ORDER BY table2.column1 ASC|DESC;
 | ```LEFT JOIN``` | Shows all records from left (first) table and matching ones from the right |
 | ```RIGHT JOIN```       | Shows all records from right (second) table and matching ones from the left |
 | ```FULL OUTER JOIN```     | Sows all records from both tables whether they have a match in the other table or not |
+
+![Joins Venn Diagram](https://github.com/ZanClifton/postgresql-cheat-sheet/blob/main/images/sql-joins.png)
