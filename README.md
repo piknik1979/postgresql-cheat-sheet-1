@@ -21,7 +21,7 @@ ORDER BY table2.column1 ASC|DESC;
 | ```LIKE```     | Wildcard matching with _ or %          | ```WHERE column LIKE '%This%'```     |
 
 
-## JOIN
+## JOINS
 
 | Keyword  | Usage                                  |
 |----------|----------------------------------------|
