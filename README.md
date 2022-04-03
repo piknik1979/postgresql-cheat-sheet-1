@@ -63,23 +63,23 @@ END
 
 <!-- ## Aggregate Functions -->
 
-# Hints and Tips
+## Hints and Tips
 
-## Restarting the PSQL server
+### Restarting the PSQL server
 ```
 #restart PostgreSQL service
 sudo service postgresql restart
 ```
 And in case that's not enough, refer to [this](https://stackoverflow.com/questions/31645550/postgresql-why-psql-cant-connect-to-server)
 
-## Case Conventions
+### Case Conventions
 
 You don't have to capitalise keywords, but convention dictates that they are capitalised, and values are not.
 
-## Quote Marks
+### Quote Marks
 
 SQL likes single quotes. It really does not like double quotes.
 
-## Semicolons
+### Semicolons
 
 End your query with a semicolon to tell SQL you're done. You can get away with it if it's only a single query and nothing else, but really, it's not worth it.
