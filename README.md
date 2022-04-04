@@ -50,11 +50,11 @@ END
 |CONCAT   | Combines two or more strings into one | CONCAT('string1 ', 'string2 ', 'string 3')
 |FLOOR    | Rounds down to nearest integer | FLOOR(input_value) |
 |GREATEST | Returns greatest of a list of expressions | GREATEST(1,2,3,4,5) 
-|INITCAP  | Capitalises the first letter of each word in a string | initcap('firstword secondword') |
+|INITCAP  | Capitalises the first letter of each word in a string | INITCAP('firstword secondword') |
 |LEAST    | Returns least of a list of expressions | LEAST(1,2,3,4,5)
 |LENGTH   | Returns number of characters in a string | LENGTH('string') |
 |LOWER    | Converts all characters in a string to lowercase | LOWER('STRING') |
-|MOD      | Returns the remainder of a division (modulo) | MOD(5, 2) 
+|MOD      | Returns the remainder of a division (modulo) | MOD(number, divisor) 
 |NOW      | Returns the current date and time | NOW
 |REPLACE  | Replaces all or part of a string with another | REPLACES('string', 'string to replace' or 0, 'replacement') |
 |ROUND    | Rounds floating point number mathematically | ROUND(input_value) |
