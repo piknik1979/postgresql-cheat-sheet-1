@@ -42,24 +42,25 @@ CASE
 END
 ```
 
-<!-- ## Common Functions
+## Common Functions
 | Keyword | Usage                                 | Format                                       |
 |---------|---------------------------------------|----------------------------------------------|
-|CAST     | 
-|CEIL     |
-|CONCAT   |
-|FLOOR    |
-|FLOOR    |
-|GREATEST |
-|INITCAP  |
-|LEAST    |
-|LOWER    |
-|MOD      |
-|NOW      |
-|REPLACE  |
-|ROUND    |
-|TRIM     |
-|UPPER    | -->
+|CAST     | Converts expression to data type specified | CAST(expression AS DATATYPE)            |
+|CEIL     | Rounds up to nearest integer | CEIL(input_value) |
+|CONCAT   | Combines two or more strings into one | CONCAT('string1 ', 'string2 ', 'string 3')
+|FLOOR    | Rounds down to nearest integer | FLOOR(input_value) |
+|GREATEST | Returns greatest of a list of expressions | GREATEST(1,2,3,4,5) 
+|INITCAP  | Capitalises the first letter of each word in a string | initcap('firstword secondword') |
+|LEAST    | Returns least of a list of expressions | LEAST(1,2,3,4,5)
+|LENGTH   | Returns number of characters in a string | LENGTH('string') |
+|LOWER    | Converts all characters in a string to lowercase | LOWER('STRING') |
+|MOD      | Returns the remainder of a division (modulo) | MOD(5, 2) 
+|NOW      | Returns the current date and time | NOW
+|REPLACE  | Replaces all or part of a string with another | REPLACES('string', 'string to replace' or 0, 'replacement') |
+|ROUND    | Rounds floating point number mathematically | ROUND(input_value) |
+|TRIM     | Trims strings of excess spaces at the start and end | TRIM('  string    ') |
+|TRUNC    | Truncates a number to specified decimal places | TRUNC(input_value, decimals) |
+|UPPER    | Converts all characters in a string to uppercase | UPPER('string') |
 
 <!-- ## Aggregate Functions -->
 
@@ -70,7 +71,7 @@ END
 #restart PostgreSQL service
 sudo service postgresql restart
 ```
-And in case that's not enough, refer to [this](https://stackoverflow.com/questions/31645550/postgresql-why-psql-cant-connect-to-server)
+And in case that's not enough, refer to [this](https://stackoverflow.com/questions/31645550/postgresql-why-psql-cant-connect-to-server).
 
 ### Case Conventions
 
