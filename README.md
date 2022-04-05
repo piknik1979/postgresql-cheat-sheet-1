@@ -83,4 +83,4 @@ SQL likes single quotes. It really does not like double quotes.
 
 ### Semicolons
 
-End your query with a semicolon to tell SQL you're done. You can get away with it if it's only a single query and nothing else, but really, it's not worth it.
+End your query with a semicolon to tell SQL you're done.
