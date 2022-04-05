@@ -14,7 +14,7 @@ ORDER BY table2.column1 ASC|DESC;
 ## SELECT Keywords
 
 | Keyword  | Usage                                  | Format
-|----------|----------------------------------------|-----------------------------------|
+|:---------|:---------------------------------------|:----------------------------------|
 | ```BETWEEN```  | Matches value between two others (inc) | ```WHERE column BETWEEN 10 AND 20```       |
 | ```DISTINCT``` | Takes out duplicate results            | ```SELECT DISTINCT column```       |
 | ```IN```       | Matches to any value within a list     | ```WHERE category IN ('Example')```  |
@@ -24,7 +24,7 @@ ORDER BY table2.column1 ASC|DESC;
 ## JOINS
 
 | Keyword  | Usage                                  |
-|----------|----------------------------------------|
+|:---------|:---------------------------------------|
 | ```INNER JOIN```  | Shows matching records in both tables (Shortcut keyword: ```JOIN```) |
 | ```LEFT JOIN``` | Shows all records from left (first) table and matching ones from the right |
 | ```RIGHT JOIN```       | Shows all records from right (second) table and matching ones from the left |
@@ -44,7 +44,7 @@ END
 
 ## Common Functions
 | Keyword | Usage                                 | Format                                       |
-|---------|---------------------------------------|----------------------------------------------|
+|:--------|:--------------------------------------|:---------------------------------------------|
 |CAST     | Converts expression to data type specified | CAST(expression AS DATATYPE)            |
 |CEIL     | Rounds up to nearest integer | CEIL(input_value) |
 |CONCAT   | Combines two or more strings into one | CONCAT('string1 ', 'string2 ', 'string 3')
