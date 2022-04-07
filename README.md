@@ -62,7 +62,26 @@ END
 |```TRUNC```    | Truncates a number to specified decimal places | ```TRUNC(input_value, decimals)``` |
 |```UPPER```    | Converts all characters in a string to uppercase | ```UPPER('string')``` |
 
-<!-- ## Aggregate Functions -->
+## Aggregate Functions
+
+Where an aggregate function is used and additional columns are selected, you must ```GROUP BY``` the other columns you wish to return. If you ```GROUP BY``` a ```PRIMARY KEY``` it is not required to include the other columns.
+
+| Keyword | Usage                                 | Format                                       |
+|:--------|:--------------------------------------|:---------------------------------------------|
+|```AVG```     | Returns the average of a set of values  | ```AVG(set)``` |
+|```COUNT``` | Returns the number of rows in a specified table or view | ```COUNT(rows)``` |
+|```MAX``` | Returns the maximum value in a set of values | ```MAX(set)``` |
+|```MIN``` | Returns the minimum value in a set of values | ```MIN(set)``` |
+|```SUM``` | Returns the sum of a set of values | ```SUM(set)``` |
+|```  
+
+### DISTINCT / ALL
+
+```aggregate_function (DISTINCT | ALL expression)```
+
+If you use the ```ALL``` modifier, the aggregate function will use all available values in the set for its calculation or evaluation. In contrast, ```DISTINCT``` causes the aggregate function to ignore duplicate balues and only consider the unique ones.
+
+<!-- ## Constraints -->
 
 ## Hints and Tips
 
