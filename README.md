@@ -79,7 +79,7 @@ Where an aggregate function is used and additional columns are selected, you mus
 
 ```aggregate_function (DISTINCT | ALL expression)```
 
-If you use the ```ALL``` modifier, the aggregate function will use all available values in the set for its calculation or evaluation. In contrast, ```DISTINCT``` causes the aggregate function to ignore duplicate balues and only consider the unique ones.
+If you use the ```ALL``` modifier, the aggregate function will use all available values in the set for its calculation or evaluation. In contrast, ```DISTINCT``` causes the aggregate function to ignore duplicate values and only consider the unique ones.
 
 ## Constraints
 | Keyword | Usage                                 | 
