@@ -81,7 +81,16 @@ Where an aggregate function is used and additional columns are selected, you mus
 
 If you use the ```ALL``` modifier, the aggregate function will use all available values in the set for its calculation or evaluation. In contrast, ```DISTINCT``` causes the aggregate function to ignore duplicate balues and only consider the unique ones.
 
-<!-- ## Constraints -->
+## Constraints
+| Keyword | Usage                                 | 
+|:--------|:--------------------------------------|
+| ```PRIMARY KEY``` | Only one on each table, it is the unique identifier for the record on a given row |
+| ```UNIQUE``` | The item in this column cannot be duplicated on any other row |
+|```NOT NULL``` | There must be a value is this column on each row |
+| ```DEFAULT``` | This value is supplied if no value is specified when the information is entered |
+
+<!-- ## Junction / Link Tables -->
+
 
 ## Hints and Tips
 
