@@ -89,6 +89,16 @@ If you use the ```ALL``` modifier, the aggregate function will use all available
 |```NOT NULL``` | There must be a value is this column on each row |
 | ```DEFAULT``` | This value is supplied if no value is specified when the information is entered |
 
+## Manipulation
+
+| Keyword | Usage                                 | Format |
+|:--------|:--------------------------------------|:-------|
+| ```ALTER TABLE``` | Modifies columns and can be used with ADD column to add new columns | ```ALTER TABLE table_name ADD column_name datatype;``` |
+| ```CREATE TABLE``` | Creates a new table in a database | ```CREATE TABLE table_name (column1 datatype, column2 datatype, column3 datatype, ...);``` |
+| ```DELETE``` | Deletes records from a table and if WHERE clause is ommitted, all rows will be deleted | ```DELETE FROM table_name WHERE column1 = value1;``` |
+| ```INSERT``` | Adds a new row/record to a table | ```INSERT INTO table_name (column1, column2) VALUES (value1, value2);``` |
+|  ```UPDATE``` | Edits records meeting specified criteria | ```UPDATE table_name SET column1 = value1, column2 = value2 WHERE column = value;``` |
+
 <!-- ## Junction / Link Tables -->
 
 
