@@ -122,3 +122,7 @@ SQL likes single quotes. It really does not like double quotes.
 ### Semicolons
 
 End your query with a semicolon to tell SQL you're done.
+
+### Decimals
+
+When performing a calculation which requires rounding of a number of decimal places, ensure you have included sufficient zeroes after the decimal point e.g. ```CEIL(1901 / 100.00) AS century``` .
